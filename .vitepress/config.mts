@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+// import react from '@vitejs/plugin-react'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -24,5 +25,7 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/emadhsiddiqui97/mediaLibraray' }
     ]
-  }
+  },
+  // plugins:[react()],
+  base:"/LibrarianDocs/"
 })
