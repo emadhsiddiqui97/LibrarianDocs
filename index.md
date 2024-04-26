@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Librarian"
   text: "Keeping track of your favorite shows and movies"
-  tagline: Librarian for your shows and movies
+  tagline: Librarian of your Digital content library
   actions:
     - theme: brand
       text: Markdown Examples
